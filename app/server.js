@@ -1,13 +1,12 @@
 const nextApp = require('next');
 const express = require('express');
 const { parse } = require('url');
-var bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 const path = require('path');
+const { port } = require('./server.config');
 
 const nextServer = nextApp({ dev: true });
 const handle = nextServer.getRequestHandler();
-
-const port = '7000'; //dev port
 
 nextServer.prepare().then(() => {
   const server = express();
