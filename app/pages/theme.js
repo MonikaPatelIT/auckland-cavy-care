@@ -9,6 +9,10 @@ const Page = () => {
       </Head>
       <main>
         <div className="main-card">
+          <div style={{display: 'flex', alignItems:'center', padding: '1em 0', borderBottom: '1px solid grey'}}>
+          <img src='/logo/logo-sq.png' style={{height:'50px', margin: '0 2em 0 0'}}/>
+          <h1>Auckland Cavy Care - Theme</h1>
+          </div>
           <div>
             <h1>Heading One</h1>
             <h2>Heading Two</h2>
