@@ -1,22 +1,5 @@
 @import "./_variables.less";
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: @bodyFont !important;
-  font-size: @defaultFontSize !important;
-  background: @pageColor;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: @headingFont !important;
-}
 div.main-card {
   position: absolute;
   left: 50%;
@@ -24,6 +7,7 @@ div.main-card {
   transform: translate(-50%, -50%);
   padding: 4em;
   width: 80%;
+  max-width: 1199px;
   background: white;
   border-radius: @defaultBorderRadius;
   box-shadow: @cardBoxShadow;

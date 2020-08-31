@@ -21,8 +21,17 @@
 
 
 /* -- OTHER VARIABLES -- */
+@desktopHeaderHeight: 80px;
+@mobileHeaderHeight: 100px;
 @defaultBorderRadius: 8px;
 @cardBoxShadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 @cardBoxShadowHover: 0 9px 18px rgba(0, 0, 0, 0.16), 0 9px 9px rgba(0, 0, 0, 0.23);
 
-
+/* RESETS */
+/* ------------------- */
+*,*::before,*::after {  box-sizing: border-box;}
+body {margin: 0;font-family: @bodyFont;font-size: @defaultFontSize;background: @pageColor;}
+img {max-width: 100%;display: block;}
+h1,h2,h3,h4,h5,h6 {font-family: @headingFont;margin: 0;}
+p, a, ul, li {margin: 0;}
+/* ------------------- */

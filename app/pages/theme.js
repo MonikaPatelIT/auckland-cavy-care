@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { HeaderNavigation } from "../components/Header";
 
 const Page = () => {
   return (
@@ -7,6 +8,9 @@ const Page = () => {
         <title>CAVY | Theme</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <header>
+        <HeaderNavigation/>
+      </header>
       <main>
         <div className="main-card">
           <div style={{display: 'flex', alignItems:'center', padding: '1em 0', borderBottom: '1px solid grey'}}>
